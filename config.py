@@ -28,5 +28,6 @@ messageList = [
 	'what I really meant to say was: Hi I\'m Will, I\'m a big dumb idiot',
 	'FUCK. i shouldn\'t have said that, i\'m so insecure!',
 	'blah blah blah, i\'m a silly moron',
-	'i just want to take a second to let everyone know, I have a huge penis. Just kidding! It\'s tiny!'
+	'i just want to take a second to let everyone know, I have a huge penis. Just kidding! It\'s tiny!',
+	'I wonder if anyone knows I want to blow mike'
 ]
