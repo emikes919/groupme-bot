@@ -12,7 +12,7 @@ def recMessage():
 	print('botAPI hit by Groupme, message received')
 	if request.is_json:
 		incomingMessage = request.get_json()
-		pprint.pprint(message)
+		pprint.pprint(incomingMessage)
 		# enter post message code
 		
 		if incomingMessage['sender_id'] == config.userID:
