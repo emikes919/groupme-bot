@@ -1,5 +1,5 @@
 from flask import Flask, request
-import pprint, requests
+import pprint, requests, config, messagePost
 
 botApp = Flask(__name__)
 
@@ -15,6 +15,10 @@ def recMessage():
 		pprint.pprint(message)
 		# enter post message code
 		
+		if response['sender_id'] == config.userID:
+			text = messagePost.text
+			messagePost.messagePost(text)
+
 		return 'Success!', 200
 	return {'error': 'Request must be JSON'}, 415
 
