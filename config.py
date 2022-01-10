@@ -17,4 +17,4 @@ messageList = [
 ]
 
 # API
-callbackURL = ''
+callbackURL = 'https://groupme-bot-ed1.herokuapp.com'
