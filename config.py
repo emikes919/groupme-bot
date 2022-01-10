@@ -9,20 +9,24 @@ botsEndpoint = '/bots'
 destroyBotEndpoint = '/bots/destroy'
 postEndpoint = '/bots/post'
 
+# API
+callbackURL = 'https://groupme-bot-ed1.herokuapp.com'
+#userID
+
 # bot & message
 bot = {
 		'bot': {
 			'name': 'sarahEdTestBot',
-			'group_id': GROUPID
+			'group_id': GROUPID,
+			'callback_url': callbackURL
 		}
 	}
 	
-botID = 'f9eaee396b53fa0d44676b5576'
+botID = 'dce896d8c57ac9b6e7e86107db'
 messageList = [
-	'yooooo',
-	'what it do!'
+	'dammit Will! remember what we talked about! ',
+	'what I really meant to say was: Hi I\'m Will, I\'m a big dumb idiot',
+	'FUCK. i shouldn\'t have said that, i\'m so insecure!',
+	'blah blah blah, i\'m a silly moron',
+	'i just want to take a second to let everyone know, I have a huge penis. Just kidding! It\'s tiny!'
 ]
-
-# API
-callbackURL = 'https://groupme-bot-ed1.herokuapp.com'
-#userID
