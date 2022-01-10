@@ -17,7 +17,7 @@ bot = {
 		}
 	}
 	
-botID = '32d8345452e2baecb58d57b137'
+botID = 'f9eaee396b53fa0d44676b5576'
 messageList = [
 	'yooooo',
 	'what it do!'
