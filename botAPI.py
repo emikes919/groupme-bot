@@ -11,11 +11,11 @@ def placeholderText():
 def recMessage():
 	print('botAPI hit by Groupme, message received')
 	if request.is_json:
-		message = request.get_json()
+		incomingMessage = request.get_json()
 		pprint.pprint(message)
 		# enter post message code
 		
-		if response['sender_id'] == config.userID:
+		if incomingMessage['sender_id'] == config.userID:
 			text = messagePost.text
 			messagePost.messagePost(text)
 
