@@ -1,0 +1,24 @@
+import requests, pprint, config
+
+# Groupme Auth data
+GROUPID = config.GROUPID
+BASEURL = config.BASEURL
+endpoint = config.botsEndpoint
+tokenParam = '?token=' + config.TOKEN
+
+bot = {
+		'bot': {
+			'name': 'sarahEdTestBot',
+			'group_id': GROUPID
+		}
+	}
+
+# create and register bot via POST request
+def createBot():
+	botParam = bot
+	url = BASEURL + endpoint + tokenParam
+	response = requests.post(url, json=botParam)
+	print(response.status_code)
+	return response
+
+createBot()
