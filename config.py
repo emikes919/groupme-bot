@@ -11,7 +11,7 @@ postEndpoint = '/bots/post'
 
 # API
 callbackURL = 'https://groupme-bot-ed1.herokuapp.com'
-userID = '2976489'
+userID = '3269722'
 
 # bot & message
 bot = {

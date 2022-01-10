@@ -13,11 +13,10 @@ def recMessage():
 	if request.is_json:
 		incomingMessage = request.get_json()
 		pprint.pprint(incomingMessage)
-		# enter post message code
 		
-		if incomingMessage['sender_id'] == config.userID:
-			text = messagePost.text
-			messagePost.messagePost(text)
+		# enter post message code
+		if incomingMessage['sender_id'] == config.targetUserID:
+			messagePost.sendMessage()
 
 		return 'Success!', 200
 	return {'error': 'Request must be JSON'}, 415
