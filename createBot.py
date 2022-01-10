@@ -6,12 +6,7 @@ BASEURL = config.BASEURL
 endpoint = config.botsEndpoint
 tokenParam = '?token=' + config.TOKEN
 
-bot = {
-		'bot': {
-			'name': 'sarahEdTestBot',
-			'group_id': GROUPID
-		}
-	}
+bot = config.bot
 
 # create and register bot via POST request
 def createBot():
