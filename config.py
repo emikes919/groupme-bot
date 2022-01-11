@@ -24,10 +24,13 @@ bot = {
 	
 botID = 'dce896d8c57ac9b6e7e86107db'
 messageList = [
-	'dammit Will! remember what we talked about! ',
+	'dammit Will! remember what we talked about! Think before I type. Think before I type. Think before I type.',
 	'what I really meant to say was: Hi I\'m Will, I\'m a big dumb idiot',
 	'FUCK. i shouldn\'t have said that, i\'m so insecure!',
 	'blah blah blah, i\'m a silly moron',
 	'i just want to take a second to let everyone know, I have a huge penis. Just kidding! It\'s tiny!',
-	'I wonder if anyone knows I want to blow mike'
+	'I wonder if anyone knows I want to blow mike',
+	'why can\'t I get "joel is hot" out of my dang head!',
+	'I hope the fellas don\'t realize I\'m an easy target',
+	'I love you Wes. Wait did I say that out loud? Oh good, phew!'
 ]
