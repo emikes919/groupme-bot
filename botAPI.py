@@ -22,7 +22,7 @@ def recMessage():
 				if count >= 3:
 					messagePost.sendMessage()
 					count == 0
-		print('count is: ' + count)
+		print('count is: ' + str(count))
 
 		return 'Success!', 200
 	return {'error': 'Request must be JSON'}, 415
