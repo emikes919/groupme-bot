@@ -23,6 +23,6 @@ def sendMessage():
 
 	num += 1
 	if num == len(messageList):
-		num == 0
+		num = 0
 
 	return response

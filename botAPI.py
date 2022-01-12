@@ -23,7 +23,7 @@ def recMessage():
 				count += 1
 				if count >= 3:
 					messagePost.sendMessage()
-					count == 0
+					count = 0
 		print('count is: ' + str(count))
 
 		return 'Success!', 200
