@@ -35,5 +35,6 @@ messageList = [
 	'I hope the fellas don\'t realize I\'m an easy target',
 	'I love you Wes. Wait did I say that out loud?',
 	'Very good!',
-	'The Giants suck!'
+	'The Giants suck!',
+	'Dont\'t worry bud, if the guys are too hard on us, mommie will cuddle us'
 ]

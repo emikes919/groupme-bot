@@ -22,8 +22,8 @@ def recMessage():
 			if len(incomingMessage['text']) >= 15:
 				count += 1
 				if count >= 3:
-					messagePost.sendMessage()
 					count = 0
+					messagePost.sendMessage()
 		print('count is: ' + str(count))
 
 		return 'Success!', 200
