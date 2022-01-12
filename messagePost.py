@@ -7,11 +7,11 @@ tokenParam = '?token=' + config.TOKEN
 botID = config.botID
 messageList = config.messageList
 
-num = 0
+# num = 0
 
 def sendMessage():
-	global num
-	#num = random.randint(0, len(messageList) - 1)
+	# global num
+	num = random.randint(0, len(messageList) - 1)
 	text = messageList[num]
 	url = BASEURL + endpoint + tokenParam
 	message = {
@@ -21,8 +21,8 @@ def sendMessage():
 	response = requests.post(url, json=message)
 	print(response.status_code)
 
-	num += 1
-	if num == len(messageList):
-		num = 0
+	# num += 1
+	# if num == len(messageList):
+	# 	num = 0
 
 	return response
