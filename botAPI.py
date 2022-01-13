@@ -7,11 +7,8 @@ botApp = Flask(__name__)
 def placeholderText():
 	return 'This is a placeholder page for Ed\'s Groupme chatbot API'
 
-count = 0
-
 @botApp.post('/')
 def recMessage():
-	global count
 	print('botAPI hit by Groupme, message received')
 	if request.is_json:
 		incomingMessage = request.get_json()
@@ -20,11 +17,7 @@ def recMessage():
 		# bot conditional post message code
 		if incomingMessage['sender_id'] == config.targetUserID:
 			if len(incomingMessage['text']) >= 15:
-				count += 1
-				if count >= 3:
-					count = 0
-					messagePost.sendMessage()
-		print('count is: ' + str(count))
+				messagePost.sendMessage()
 
 		return 'Success!', 200
 	return {'error': 'Request must be JSON'}, 415
