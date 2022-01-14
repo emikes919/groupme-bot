@@ -5,20 +5,23 @@ of the group you want to create the bot in
 
 Step 2: set GROUPID below to the relevant group ID
 
-Step 3: name the bot in the bot dict below
+Step 3: set the targetUserID to the person you want
+the bot to respond to 
 
-Step 4: run createBot.py
+Step 4: name the bot in the bot dict below
 
-Step 5: run getBots.py, find the bot you just created,
+Step 5: run createBot.py
+
+Step 6: run getBots.py, find the bot you just created,
 and enter the bot ID into the botID below
 
-Step 6: commit to git and push to heroku
+Step 7: commit to git and push to heroku
 
 """
 
 # auth
 TOKEN = 'GHP3STkQhLJITckZ281ESBS4NfRYdpfKZ4SpAf39'
-GROUPID = '84147785'
+GROUPID = '16924082'
 BASEURL = 'https://api.groupme.com/v3'
 
 # endpoints
@@ -29,7 +32,7 @@ postEndpoint = '/bots/post'
 
 # API
 callbackURL = 'https://groupme-bot-ed1.herokuapp.com'
-targetUserID = '3269722'
+targetUserID = '6133655'
 
 # bot & message
 bot = {
@@ -40,7 +43,7 @@ bot = {
 		}
 	}
 	
-botID = '000c08345da304e38b80f393a3'
+botID = '9c1a8bbdb76f9d652dcbf2d57e'
 messageList = [
 	'dammit Will! remember what we talked about! Think before I type. Think before I type. Think before I type.',
 	'what I really meant to say was: Hi I\'m Will, I\'m a big dumb idiot',
@@ -51,7 +54,7 @@ messageList = [
 	'I wonder if anyone knows I want to blow mike',
 	'why can\'t I get "joel is hot" out of my dang head!',
 	'I hope the fellas don\'t realize I\'m an easy target',
-	'I love you Wes. Wait did I say that out loud?',
+	'Do me Wes. Wait did I say that out loud?',
 	'Very good Will!',
 	'The Giants suck!',
 	'I am the smartest man on earth',
