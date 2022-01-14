@@ -1,3 +1,7 @@
 # .gitignore
 __pycache__
 groupmeBot_venv
+createBot.py
+destroyBoy.py
+getBots.py
+groupIDs.py
