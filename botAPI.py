@@ -16,7 +16,7 @@ def recMessage():
 		
 		# bot conditional post message code
 		if incomingMessage['sender_id'] == config.targetUserID:
-			if len(incomingMessage['text']) >= 70:
+			if len(incomingMessage['text']) >= 10000:
 				messagePost.sendMessage()
 
 		return 'Success!', 200
