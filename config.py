@@ -45,6 +45,10 @@ bot = {
 	
 botID = '9c1a8bbdb76f9d652dcbf2d57e'
 messageList = [
+	''
+]
+
+oldMessageList = [
 	'dammit Will! remember what we talked about! Think before I type. Think before I type. Think before I type.',
 	'what I really meant to say was: Hi I\'m Will, I\'m a big dumb idiot',
 	'FUCK. i shouldn\'t have said that, i\'m so insecure! At least I\'m not as short as Ed, Steve or, heaven forbid, Sam',
