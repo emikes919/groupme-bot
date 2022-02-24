@@ -20,8 +20,8 @@ Step 7: commit to git and push to heroku
 """
 
 # auth
-TOKEN = 'GHP3STkQhLJITckZ281ESBS4NfRYdpfKZ4SpAf39'
-GROUPID = '16924082'
+TOKEN = ''
+GROUPID = ''
 BASEURL = 'https://api.groupme.com/v3'
 
 # endpoints
@@ -31,8 +31,8 @@ destroyBotEndpoint = '/bots/destroy'
 postEndpoint = '/bots/post'
 
 # API
-callbackURL = 'https://groupme-bot-ed1.herokuapp.com'
-targetUserID = '6133655'
+callbackURL = ''
+targetUserID = ''
 
 # bot & message
 bot = {
@@ -43,7 +43,7 @@ bot = {
 		}
 	}
 	
-botID = '9c1a8bbdb76f9d652dcbf2d57e'
+botID = ''
 messageList = [
 	''
 ]
