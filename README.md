@@ -1,5 +1,7 @@
 # groupme-bot
 
+This bot assumes you have a groupme account, have obtained your API key, and are in at least 1 groupme group
+
 Step 1: run groupIDs.py and select the group ID 
 of the group you want to create the bot in
 
