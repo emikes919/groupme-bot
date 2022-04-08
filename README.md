@@ -1,6 +1,6 @@
 # groupme-bot
 
-This bot assumes you have a groupme account, have obtained your API key, and are in at least 1 groupme group
+This bot assumes you have a groupme account, have obtained your API key, and are in at least 1 groupme group. It also requires that you have a basic heroku app set up which you can use as the bot's callback url.
 
 Step 1: run groupIDs.py and select the group ID of the group you want to create the bot in
 
