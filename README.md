@@ -16,3 +16,6 @@ Step 6: run getBots.py, find the bot you just created,
 and enter the bot ID into the botID below
 
 Step 7: commit to git and push to heroku
+
+
+See https://dev.groupme.com/docs/v3 for more information
