@@ -2,6 +2,8 @@
 
 This bot assumes you have a groupme account, have obtained your API key, and are in at least 1 groupme group. It also requires that you have a basic heroku app set up which you can use as the bot's callback url.
 
+Before you get started, adjust the message character threshold in row 19 on botAPI.py downward. Currently set to 50K characters, meaning your target will need to send a message at least 50K characters long to trigger the bot. Unless he/she is a very verbose, the bot will never respond!
+
 Step 1: run groupIDs.py and select the group ID of the group you want to create the bot in
 
 Step 2: set GROUPID to the relevant group ID
