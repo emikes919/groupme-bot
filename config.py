@@ -37,7 +37,7 @@ targetUserID = ''
 # bot & message
 bot = {
 		'bot': {
-			'name': 'Will\'s Conscience',
+			'name': '',
 			'group_id': GROUPID,
 			'callback_url': callbackURL
 		}
