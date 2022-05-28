@@ -7,7 +7,7 @@ endpoint = config.destroyBotEndpoint
 tokenParam = '?token=' + config.TOKEN
 
 botIDs = [
-	'dce896d8c57ac9b6e7e86107db'
+	''
 ]
 
 def destroyBot(bot):
