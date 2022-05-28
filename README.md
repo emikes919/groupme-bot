@@ -19,5 +19,6 @@ and enter the bot ID into the botID below
 
 Step 7: commit to git and push to heroku
 
+**If you want to delete a bot, run destroyBot.py after entering in the ID of the bot you want to destroy**
 
 See https://dev.groupme.com/docs/v3 for more information
